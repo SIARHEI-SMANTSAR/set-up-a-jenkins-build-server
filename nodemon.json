@@ -1,0 +1,18 @@
+{
+    "env": {
+        "ENV": "development",
+        "HOST": "localhost",
+        "PORT": "4000"
+    },
+    "execMap": {
+        "ts": "node node_modules/ts-node/dist/bin.js --inspect --fast --no-cache"
+    },
+    "ext": "ts",
+    "ignore": [
+        "src/**/*.spec.ts"
+    ],
+    "restartable": "rs",
+    "watch": [
+        "src"
+    ]
+}

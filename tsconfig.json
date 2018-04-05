@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es6",
+    "baseUrl": ".",
+    "paths": {
+      "*": [
+        "src/*"
+      ]
+    },
+    "allowJs": true,
+    "noImplicitAny": false,
+    "sourceMap": false,
+    "typeRoots": [
+      "node_modules/@types"
+    ],
+    "declaration": true
+  }
+}
