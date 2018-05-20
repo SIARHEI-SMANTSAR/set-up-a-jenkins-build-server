@@ -37,6 +37,14 @@ sudo apt-get update
 sudo apt-get install jenkins
 ```
 
+If you have error `Failed to start LSB: Start Jenki` install Java Runtime Environment:
+
+```
+sudo apt install openjdk-8-jre
+```
+
+or so to fix that you should chose version 8 as your default java environment by simply running `sudo update-alternatives --config java` and then chosing your version 8
+
 * Start Jenkins
 
 ```
